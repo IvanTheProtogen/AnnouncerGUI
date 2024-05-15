@@ -81,14 +81,14 @@ EndpointTarget:FireServer(InputBox.Text, tonumber(DurInput.Text))
 end)
 else
 local msg = Instance.new("Message",workspace)
-msg.Text = "[AnnouncerGUI]\nEndpoint not found! Please execute this script on serverside then execute it on clientside!\n(https://github.com/IvanTheProtogen/AnnouncerGUI/main/main.lua)"
+msg.Text = "[AnnouncerGUI]\nEndpoint not found! Please execute this script on serverside then execute it on clientside!\n(https://github.com/IvanTheProtogen/AnnouncerGUI/blob/main/main.lua)"
 wait(5)
 msg:Destroy()
 end
 else
 if workspace:FindFirstChild("AnnouncerEndpoint") then
 local msg = Instance.new("Message",workspace)
-msg.Text = "[AnnouncerGUI]\nEndpoint already exists! Execute the script on clientside now!\n(https://github.com/IvanTheProtogen/AnnouncerGUI/main/main.lua)"
+msg.Text = "[AnnouncerGUI]\nEndpoint already exists! Execute the script on clientside now!\n(https://github.com/IvanTheProtogen/AnnouncerGUI/blob/main/main.lua)"
 wait(5)
 msg:Destroy()
 else
@@ -101,7 +101,7 @@ wait(durnum)
 msg:Destroy()
 end)
 local msg = Instance.new("Message",workspace)
-msg.Text = "[AnnouncerGUI]\nAnnouncerGUI Endpoint has been made! Execute the script on clientside!\n(https://github.com/IvanTheProtogen/AnnouncerGUI/main/main.lua)"
+msg.Text = "[AnnouncerGUI]\nAnnouncerGUI Endpoint has been made! Execute the script on clientside!\n(https://github.com/IvanTheProtogen/AnnouncerGUI/blob/main/main.lua)"
 wait(5)
 msg:Destroy()
 end
